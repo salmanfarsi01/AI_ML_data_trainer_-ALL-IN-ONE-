@@ -424,22 +424,6 @@ curl http://localhost:8000/health
 curl http://localhost:8000/info
 ```
 
-### Debugging
-
-- Frontend: Open browser DevTools (F12)
-- Backend: Check terminal for logs
-- Check network tab for API calls
-- Review .env configuration
-
-## 📞 Support
-
-### Getting Help
-
-1. Check troubleshooting section
-2. Review error messages in console
-3. Check backend logs
-4. Review documentation files
-5. Test with smaller datasets first
 
 ### Common Issues
 
@@ -455,20 +439,4 @@ curl http://localhost:8000/info
 - **Cause**: Frontend and backend on different origins
 - **Solution**: Configure CORS correctly in backend
 
-## 🎉 Success!
 
-You now have a complete AutoML application with:
-- ✅ REST API backend
-- ✅ Interactive web frontend
-- ✅ Real-time pipeline monitoring
-- ✅ AI-powered data quality checks
-- ✅ Automated model training
-- ✅ Comprehensive result display
-
-Happy machine learning! 🚀
-
----
-
-**Version**: 1.0.0  
-**Last Updated**: May 2026  
-**Technologies**: FastAPI, React, scikit-learn, Groq API
